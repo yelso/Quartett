@@ -29,8 +29,6 @@ class GameViewController: UIViewController {
             
             view.showsFPS = true
             view.showsNodeCount = true
-            let cardSet = CardSet.decode()
-            print(cardSet.getName())
         }
     }
 
